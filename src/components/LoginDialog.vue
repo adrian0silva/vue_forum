@@ -74,7 +74,6 @@ import {
   Dialog,
   DialogContent,
   DialogDescription,
-  DialogFooter,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
@@ -138,9 +137,7 @@ async function onGoogleSignIn() {
   }
 }
 
-function onClose() {
-  open.value = false;
-}
+//
 </script>
 
 <style scoped>

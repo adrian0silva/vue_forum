@@ -166,10 +166,6 @@ async function onGoogleSignIn() {
     toast({ title: "Erro", description: "Não foi possível autenticar com Google." });
   }
 }
-
-function onClose() {
-  open.value = false;
-}
 </script>
 
 <style scoped>
